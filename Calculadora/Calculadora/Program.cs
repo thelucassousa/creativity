@@ -9,7 +9,7 @@ namespace Calculadora
     internal class Program
 
     {
-        enum Opcao {Somar, Subtrair, Multiplicar, Dividir};
+        enum Opcao {Somar = 1, Subtrair, Multiplicar, Dividir};
 
         static void Main(string[] args)
         {
