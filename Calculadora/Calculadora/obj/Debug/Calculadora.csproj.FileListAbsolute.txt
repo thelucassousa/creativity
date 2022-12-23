@@ -1,0 +1,8 @@
+C:\creativity\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\creativity\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\creativity\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\creativity\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\creativity\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.SuggestedBindingRedirects.cache
+C:\creativity\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\creativity\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\creativity\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
