@@ -22,12 +22,39 @@ namespace Calculadora
             switch (opcaoSel)
             {
                 case Opcao.Somar:
-                    Console.WriteLine("Somar:");
+                    Console.Write("Somar:");
                     int somaN1 = int.Parse(Console.ReadLine());
                     Console.Write($"Somar {somaN1} + ");
                     int somaN2 = int.Parse(Console.ReadLine());
                     int resultadoSoma = Soma(somaN1, somaN2);
                     Console.WriteLine($"O resultado da soma é {resultadoSoma}");
+                    break;
+                case Opcao.Subtrair:
+                    Console.Write("Subtrair:");
+                    int subtraiN1 = int.Parse(Console.ReadLine());
+                    Console.Write($"Subtrair {subtraiN1} - ");
+                    int subtraiN2 = int.Parse(Console.ReadLine());
+                    int resultadoSub = Subtrair(subtraiN1, subtraiN2);
+                    Console.WriteLine($"O resultado da subtração é {resultadoSub}");
+                    break;
+                case Opcao.Multiplicar:
+                    Console.Write("Multiplicar:");
+                    int multiplicaN1 = int.Parse(Console.ReadLine());
+                    Console.Write($"Multiplicar {multiplicaN1} * ");
+                    int multiplicaN2 = int.Parse(Console.ReadLine());
+                    int resultadoMult = Multiplicar(multiplicaN1, multiplicaN2);
+                    Console.WriteLine($"O resultado da multiplicação é {resultadoMult}");
+                    break;
+                case Opcao.Dividir:
+                    Console.Write("Dividir:");
+                    int dividiN1 = int.Parse(Console.ReadLine());
+                    Console.Write($"Dividir {dividiN1} * ");
+                    int dividiN2 = int.Parse(Console.ReadLine());
+                    int resultadoDivi = Divisao(dividiN1, dividiN2);
+                    Console.WriteLine($"O resultado da divisão é {resultadoDivi}");
+                    break;
+                default:
+                    Console.WriteLine("Erro, por gentileza, tente novamente.");
                     break;
             }
 
