@@ -46,9 +46,9 @@ namespace Calculadora
                     Console.WriteLine($"O resultado da multiplicação é {resultadoMult}");
                     break;
                 case Opcao.Dividir:
-                    Console.Write("Dividir:");
+                    Console.Write(Opcao.Dividir + " ");
                     int dividiN1 = int.Parse(Console.ReadLine());
-                    Console.Write($"Dividir {dividiN1} * ");
+                    Console.Write($"Dividir {dividiN1} / ");
                     int dividiN2 = int.Parse(Console.ReadLine());
                     int resultadoDivi = Divisao(dividiN1, dividiN2);
                     Console.WriteLine($"O resultado da divisão é {resultadoDivi}");
@@ -60,6 +60,19 @@ namespace Calculadora
 
 
             Console.ReadLine();
+
+        }
+
+        static void Imprimi(string OpcaoSel)
+        {
+            string opcaoEsc = OpcaoSel;
+
+            switch (OpcaoSel)
+            {
+
+
+            }
+            
 
         }
         static int Soma(int n1, int n2)
